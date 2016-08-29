@@ -30,7 +30,7 @@ public class T9Dictionary {
         long start = new Date().getTime();
         Trie trie = Trie.getInstance();
         System.out.println("Creating Dictionary");
-        File f = new File("/Users/nikhilagrawal/Documents/DSA/Repo/DS_Designs/src/T9Dictionary/data.txt");
+        File f = new File("/Users/nikhilagrawal/Documents/Design-Pattern/src/DesignPattern/T9Dictionary/data.txt");
         BufferedReader br = new BufferedReader(new FileReader(f));
         String s = br.readLine();
         int i = 0;
