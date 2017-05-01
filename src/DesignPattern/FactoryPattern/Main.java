@@ -18,15 +18,15 @@ public class Main {
             System.out.println("Please type of shape :: ");
 
             String userInput = br.readLine();
-            
-            
-            
+
+
+
           //  Factory f = new Factory();
             Shape shape = Factory.getShape(userInput);
             shape.draw();
-            
-          
-         
+
+
+
     }
 
 

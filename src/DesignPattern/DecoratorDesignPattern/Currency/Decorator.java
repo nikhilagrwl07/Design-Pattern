@@ -1,4 +1,4 @@
-package DesignPattern.DecoratorDesignPattern;
+package DesignPattern.DecoratorDesignPattern.Currency;
 
 
 // Decorator
