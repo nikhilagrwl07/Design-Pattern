@@ -1,5 +1,5 @@
     
-package DesignPattern.DecoratorDesignPattern;
+package DesignPattern.DecoratorDesignPattern.Currency;
 
 
  abstract class Currency{
