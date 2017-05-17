@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package DesignPattern.DecoratorDesignPattern.Pizza;
+package DesignPattern.DecoratorPattern.Pizza;
 
 /**
  *

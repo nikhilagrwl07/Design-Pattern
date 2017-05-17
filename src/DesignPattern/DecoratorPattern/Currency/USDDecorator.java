@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package DesignPattern.DecoratorDesignPattern.Currency;
+package DesignPattern.DecoratorPattern.Currency;
 
 public class USDDecorator extends Decorator {
 
