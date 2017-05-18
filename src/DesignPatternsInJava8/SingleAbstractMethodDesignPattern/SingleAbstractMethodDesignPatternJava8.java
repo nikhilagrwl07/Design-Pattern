@@ -1,4 +1,4 @@
-package DesignPattern.DesignPatternsInJava8.SingleAbstractMethodDesignPattern;
+package DesignPatternsInJava8.SingleAbstractMethodDesignPattern;
 
 import java.util.concurrent.Callable;
 

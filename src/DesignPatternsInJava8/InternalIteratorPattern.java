@@ -1,4 +1,4 @@
-package DesignPattern.DesignPatternsInJava8;
+package DesignPatternsInJava8;
 
 import java.util.Arrays;
 import java.util.List;

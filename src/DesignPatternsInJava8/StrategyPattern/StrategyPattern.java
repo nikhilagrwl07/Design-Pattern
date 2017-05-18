@@ -1,4 +1,4 @@
-package DesignPattern.DesignPatternsInJava8.StrategyPattern;
+package DesignPatternsInJava8.StrategyPattern;
 
 import java.util.Arrays;
 import java.util.List;
