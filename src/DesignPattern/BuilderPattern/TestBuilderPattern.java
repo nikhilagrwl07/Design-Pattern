@@ -9,7 +9,7 @@ public class TestBuilderPattern {
 		Computer comp = new Computer
                                 .ComputerBuilder("500 GB", "2 GB")
                                 .setBluetoothEnabled(true)
-				.setGraphicsCardEnabled(true)
+								.setGraphicsCardEnabled(true)
                                 .build();
 	}
 

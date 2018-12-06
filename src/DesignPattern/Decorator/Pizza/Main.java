@@ -1,5 +1,5 @@
 
-package DesignPattern.DecoratorDesignPattern.Pizza;
+package DesignPattern.Decorator.Pizza;
 
 
 public class Main {
@@ -12,9 +12,11 @@ public class Main {
         Pizza chickenpizza = new ChickenTikkaPizza(basicPizza);
         System.out.println(chickenpizza.serve(9451));
          System.out.println(chickenpizza.bakePizza());
- 
+         System.out.println(chickenpizza.cost());
+
         Pizza vegCheesePizza = new VegCheesePizza(basicPizza);
         System.out.println(vegCheesePizza.serve(0007));
+        System.out.println(vegCheesePizza.cost());
     }
 
 }

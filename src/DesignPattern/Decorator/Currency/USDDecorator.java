@@ -2,25 +2,25 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package DesignPattern.DecoratorDesignPattern.Currency;
+package DesignPattern.Decorator.Currency;
 
-public class SGDDecorator extends Decorator {
+public class USDDecorator extends Decorator {
 
     Currency currency;
     double value;
 
-    public SGDDecorator(Currency currency) {
+    public USDDecorator(Currency currency) {
         this.currency = currency;
     }
 
     public String getDescription(){
  
-        return currency.getDescription()+" ,its singpore Dollar";
+        return currency.getDescription()+" ,its US Dollar";
  }
 
     @Override
     public double cost(double value) {
-        System.out.println("Inside cost of SGDDecorator !!! ");
+        System.out.println("Inside cost of USDDecorator !!! ");
         this.value=value;
         return this.value;
     }

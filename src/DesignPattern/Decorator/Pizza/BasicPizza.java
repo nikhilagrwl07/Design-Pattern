@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package DesignPattern.DecoratorDesignPattern.Pizza;
+package DesignPattern.Decorator.Pizza;
 
 /**
  *
@@ -20,6 +20,6 @@ public class BasicPizza  implements Pizza{
     }
 
     public int cost() {
-        return 100;
+        return 200;
     }  
 }

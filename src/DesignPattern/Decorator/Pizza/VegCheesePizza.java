@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package DesignPattern.DecoratorDesignPattern.Pizza;
+package DesignPattern.Decorator.Pizza;
 
 /**
  *
@@ -11,7 +11,7 @@ package DesignPattern.DecoratorDesignPattern.Pizza;
  */
 public class VegCheesePizza extends PizzaDecorator {
    
-    public VegCheesePizza(Pizza newPizza) {
+    VegCheesePizza(Pizza newPizza) {
         super(newPizza);
     }
     
@@ -20,12 +20,13 @@ public class VegCheesePizza extends PizzaDecorator {
         return pizza.bakePizza() + " with Veg and cheese topping added";
     }
 
+    @Override
     public String serve(int customerID) {
        return ("Serving VegCheese Pizaa to customer :: " + customerID + " with cost :: "+ cost());
     }
 
     public int cost() {
-        return 100;
+        return pizza.cost()+100;
     }
 
 }
