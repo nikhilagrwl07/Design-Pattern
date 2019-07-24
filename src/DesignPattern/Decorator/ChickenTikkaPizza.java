@@ -27,7 +27,7 @@ public class ChickenTikkaPizza extends PizzaDecorator {
     }
 
     public int cost() {
-        return 250;
+        return pizza.cost()+100;
     }   
     
 }

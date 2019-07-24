@@ -40,9 +40,7 @@ public class Manager implements Employee {
         System.out.println("Salary ="+getSalary());
         System.out.println("-------------");
 
-        Iterator<Employee> employeeIterator = employees.iterator();
-        while(employeeIterator.hasNext()){
-            Employee employee = employeeIterator.next();
+        for (Employee employee : employees) {
             employee.print();
         }
     }

@@ -1,7 +1,5 @@
 package SOLID.DependencyInversion.RefactoredWithStrategyPattern;
 
-import SOLID.DependencyInversion.Raw.OracleDatabaseHandler;
-
 public class Main {
     public static void main(String[] args) {
         IDatabaseHandler mySQLIDatabaseHandler = new MySQLIDatabaseHandler();
@@ -9,7 +7,7 @@ public class Main {
         databaseHandler.connect();
         databaseHandler.disconnect();
 
-        IDatabaseHandler oracleDatabaseHandler = new OracleDatabaseHandler();
+        OracleIDatabaseHandler oracleDatabaseHandler = new OracleIDatabaseHandler();
         databaseHandler = new DatabaseHandler(oracleDatabaseHandler);
         databaseHandler.connect();
         databaseHandler.disconnect();

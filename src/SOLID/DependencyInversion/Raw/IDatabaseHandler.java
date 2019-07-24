@@ -1,4 +1,4 @@
-package SOLID.DependencyInversion.RefactoredWithStrategyPattern;
+package SOLID.DependencyInversion.Raw;
 
 interface IDatabaseHandler {
     public void connect();
