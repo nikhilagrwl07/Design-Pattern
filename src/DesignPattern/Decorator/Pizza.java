@@ -5,12 +5,7 @@
 
 package DesignPattern.Decorator;
 
-/**
- *
- * @author nikhil.agrawal
- */
-public interface Pizza 
-{
+public interface Pizza {
     public String bakePizza();
 
     public String serve(int customerID);

@@ -5,21 +5,17 @@
 
 package DesignPattern.Decorator;
 
-/**
- *
- * @author nikhil.agrawal
- */
-public class BasicPizza  implements Pizza{
+public class BasicPizza implements Pizza {
 
     public String bakePizza() {
         return "Basic Pizza";
     }
 
     public String serve(int customerID) {
-        return ("Serving basic Pizaa to customer :: " + customerID);
+        return ("Serving basic Pizza to customer :: " + customerID);
     }
 
     public int cost() {
         return 200;
-    }  
+    }
 }

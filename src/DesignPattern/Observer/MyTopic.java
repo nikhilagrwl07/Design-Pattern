@@ -7,13 +7,11 @@ public class MyTopic implements Subject {
 
     private String message;
     private List<Observer> observers;
-    private boolean stateChange;
 
 
     public MyTopic(String message) {
         this.message = message;
         observers = new ArrayList<>();
-        stateChange = false;
     }
 
     @Override
@@ -41,7 +39,6 @@ public class MyTopic implements Subject {
         {
             System.out.println("New message is posted to topic");
             message = newMessage;
-            stateChange = true;
             notifyAllObservers();
         }
 
@@ -59,7 +56,6 @@ public class MyTopic implements Subject {
         for(Observer observer : observers){
             observer.update();
         }
-        stateChange = false;
     }
 
 }
